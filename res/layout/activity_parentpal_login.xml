@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_base"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgAppLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/splash_logo"
+        android:contentDescription="@string/app_name" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/imgAppLogo" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_white_login"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <EditText
+                android:id="@+id/inputUserName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/username"
+                android:drawablePadding="15dp"
+                android:hint="@string/userNameHint"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:text="ankur_test"
+                android:textSize="17sp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/inputPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="15dp"
+                android:hint="@string/passwordHint"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:text="123456"
+                android:textSize="17sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxRememberMe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/remember_me"
+                android:checked="true"
+                android:textColor="@android:color/black"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_selector"
+                android:padding="13dp"
+                android:text="@string/btnLogin"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/btnRegistration"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_selector"
+                android:padding="13dp"
+                android:text="@string/btnRegistraion"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_base"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgAppLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/splash_logo"
+        android:contentDescription="@string/app_name" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/imgAppLogo" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_white_login"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <EditText
+                android:id="@+id/inputUserCompleteName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_bg"
+                android:drawablePadding="15dp"
+                android:hint="@string/userCompleteNameHint"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:textSize="17sp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/inputUserName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_bg"
+                android:drawablePadding="15dp"
+                android:hint="@string/userNameHint"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="17sp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/inputPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_bg"
+                android:drawablePadding="15dp"
+                android:hint="@string/passwordHint"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textSize="17sp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/inputEmailId"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_bg"
+                android:drawablePadding="15dp"
+                android:hint="@string/emailHint"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textSize="17sp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/inputMobileNumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_bg"
+                android:drawablePadding="15dp"
+                android:hint="@string/mobileNumberHint"
+                android:inputType="phone"
+                android:padding="10dp"
+                android:textSize="17sp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/btnRegistration"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_selector"
+                android:padding="13dp"
+                android:text="@string/btnRegister"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/btn_bg_selector"
+                android:padding="13dp"
+                android:text="@string/btnCancel"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ParentPal</string>
+    <string name="action_settings">Settings</string>
+    <string name="userNameHint">Enter User Name</string>
+    <string name="passwordHint">Enter Password</string>
+    <string name="userCompleteNameHint">Enter First Last Name</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnExit">Exit</string>
+    <string name="btnCancel"> Cancel </string>
+    <string name="btnOK">Update</string>
+    <string name="login">Log In/Registration</string>
+    <string name="login_text">SIMPLY SCAN YOUR FAVORITE PRODUCT \n \n  &amp; \n \n LET US TAKE CARE OF THE REST</string>
+    <string name="remember_me"> Remember Me</string>
+    <string name="btnRegistraion"> Create an account </string>
+    <string name="btnRegister"> Register </string>
+    <string name="emailHint"> Enter Email ID </string>
+    <string name="countryCode">001</string>
+    <string name="mobileNumberHint">Enter Mobile Number</string>
+    <string name="mobileVerificationText">Verify your mobile number. That will cost you for single text message.</string>
+    <string name="verifyNumber">Verify Number</string>
+    <string name="edit">Edit</string>
+    <string name="mobileVerificationFailedRetry">Mobile verification failed, please try again.</string>
+    <string name="btnScanBarcode">Scan Bar Code</string>
+    <string name="txtBarCodeInstruct">Tap here to \n Scan New Barcode</string>
+    
+</resources>
